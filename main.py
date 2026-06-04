@@ -8,7 +8,7 @@ from groq import Groq
 from datetime import datetime, timezone
 
 # ── Config ────────────────────────────────────────────────────────
-GROQ_API_KEY  = os.environ.get("GROQ_API_KEY",  "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")
+GROQ_API_KEY  = os.environ.get("GROQ_API_KEY",  "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")
 GNEWS_API_KEY = os.environ.get("GNEWS_API_KEY", "aebb24538d2cc54b74401f747d575822")
 MODEL_NAME    = os.environ.get("MODEL_NAME",    "llama-3.1-8b-instant")
 FRONTEND_URL  = os.environ.get("FRONTEND_URL",  "github.com/anoop006/ecolenss")
